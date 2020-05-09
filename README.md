@@ -1,8 +1,5 @@
 # Metasploit
-Metasploit Installation Script
-
-
---------------- Installation Steps --------------
+Metasploit Installation Script for Termux
 
 ## Installation
 
@@ -21,6 +18,18 @@ chmod +x metasploit.sh
 now run the script
 ```
 ./metasploit.sh
+```
+now give executable permission to the msfdb script for connecting to msf database
+```
+chmod +x msfdb.sh
+```
+run the script
+```
+./msfdb.sh
+```
+for stoping database connection give executable permission to the script
+```
+./msfdb_stop.sh
 ```
 
 ## Credits
